@@ -8,7 +8,7 @@ import numpy as np
 import os
 import country_converter as coco
 
-HOST = os.getenv('aws_pg')#'localhost'
+HOST = os.getenv('aws_pg')
 PORT = '5432'
 USERNAME = 'flann'
 PASSWORD = os.getenv('pgpassword')
