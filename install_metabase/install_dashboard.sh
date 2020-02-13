@@ -8,7 +8,7 @@ from scratch on an AWS EC2 machine
 # install python and git
 sudo yum install -y python3
 sudo yum install -y git
-pip3 install -y numpy pandas sqlalchemy country_converter
+pip3 install numpy pandas sqlalchemy country_converter
 git clone https://github.com/corcorf/ec2_install_scripts.git
 
 # install java developer kit
