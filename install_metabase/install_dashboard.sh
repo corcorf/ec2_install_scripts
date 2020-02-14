@@ -29,3 +29,6 @@ sudo service nginx restart
 
 screen java -jar metabase.jar &
 
+
+sudo echo "java -jar ~/metabase.jar &" >> /etc/rc.local
+sudo chmod +x /etc/rc.d/rc.local
